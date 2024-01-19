@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Requires at least Angular 17.
+Requires at least Angular 17 and Node 20.11 (Current LTS)
 
 ## Setup
 
