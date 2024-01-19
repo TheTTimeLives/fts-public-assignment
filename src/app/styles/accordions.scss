@@ -1,0 +1,201 @@
+.accordion {
+  margin: 4px 20px;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-header img {
+  margin-right: 8px;
+  margin-left: 20px;
+  width: 18px;
+  transform: scaleX(0.9);
+  z-index: 20;
+  position: relative;
+}
+
+.accordion-body {
+  background-color: #e3f0f8;
+  border: none;
+}
+
+.accordion-content {
+  padding: 10px 40px 20px 40px;
+}
+
+.chevy {
+  margin-right: 8px;
+  position: relative;
+  right: 2px;
+  transform: scaleX(0.9);
+  width: 18px;
+  z-index: 20;
+  margin-left: 20px;
+  right: 2px;
+}
+
+.dollar-sign {
+  transform: scaleX(1.2);
+  filter: brightness(0) invert(1);
+  height: 27px;
+  margin: 0px;
+  position: relative;
+}
+
+.form-check-input {
+  width: 25px;
+  height: 25px;
+}
+
+.form-check-input:checked {
+  background-color: #6190a8;
+  border-color: #6190a8
+}
+
+.input-group {
+  width: 95px;
+  height: 42px;
+  font-size: medium;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.dollar-sign-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #7ca2b7;
+  background-color: #7ca2b7;
+  color: white;
+  border-radius: 5px;
+  width: 30px;
+  height: 45px;
+}
+
+.form-control {
+  border-color: #7ca2b7;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+// sometimes this cursor doesn't appear no idea why
+.undo-button {
+  width: 45px;
+  float: right;
+  position: relative;
+  bottom: 63px;
+  right: 13px;
+  margin-bottom: -45px;
+  cursor: pointer;
+}
+
+.custom-check {
+  width: 25px;
+  height: 25px;
+}
+
+.custom-check:checked {
+  background-color: #6190a8;
+  border-color: #6190a8
+}
+
+.custom-accordion-header-open {
+  background-color: #e3f0f8; 
+  border-color: #e3f0f8; 
+  font-weight: 500; 
+  font-size: large;
+}
+
+.custom-accordion-header-closed {
+  background-color: white; 
+  border-color: #e3f0f8; 
+  font-weight: 500; 
+  font-size: large;
+}
+
+.custom-light-blue {
+  background-color: #e3f0f8;
+}
+
+.custom-white {
+  background-color: white;
+}
+
+.custom-toggle-shadow-on {
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  margin: 10px 0px 10px 0px;
+}
+
+.custom-toggle-shadow-off {
+  box-shadow: none !important; 
+  border: none;
+  margin: 10px 0px 10px 0px;
+}
+
+.sizes-wrapper {
+  padding: 10px 0px 20px 0px;
+}
+
+.size-wrapper {
+  margin: 0px 20px 0px 20px;
+}
+
+.size-label {
+  font-weight: 500;
+  font-size: medium;
+  transform: scaleY(1.1);
+}
+
+.price-wrapper {
+  width: 95px;
+  height: 42px;
+  font-size: medium;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.price-form {
+  border-color: #7ca2b7;
+  border-width: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.custom-margin-top-1 {
+  margin-top: 0.25rem;
+}
+
+.custom-margin-end-3 {
+  margin-right: 1rem;
+}
+
+.custom-margin-bottom-3 {
+  margin-bottom: 1rem;
+}
+
+.custom-align-items {
+  align-items: center;
+}
+
+.custom-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+// removing up and down arrows which count as spin buttons
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+input[type="number"] {
+-moz-appearance: textfield;
+}
